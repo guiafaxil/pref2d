@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#gameButton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#gameArea {
+    margin: 20px auto;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+outline: none;  /* Remove o contorno azul ao focar */
+}
+
+#gameCanvas {
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+}
+
